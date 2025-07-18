@@ -1,0 +1,15 @@
+.newsletters-lists h1 { font-family: Arial, Helvetica, sans-serif;
+    color: cadetblue;
+    text-align: left;
+}
+.newsletters-lists a { font-family: Arial, Helvetica, sans-serif;
+    color: beige;
+    background-color: darkslategray;
+    font-size: 2em;
+    text-decoration: underline;
+}
+#contactinfo { 
+    font-family: 'Times New Roman', Times, serif;
+ font-size: small;
+    
+}
