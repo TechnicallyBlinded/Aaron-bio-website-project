@@ -1,2 +1,1 @@
-# Aaron-bio-website-project
-A repository to show off HTML, CSS, and JavaScript skills. 
+This project exists to show coding skills around HTML, CSS, JavaScript. While adhering to best practices with both coding and accessibility. The goal is to show progress over time and continous learning.
