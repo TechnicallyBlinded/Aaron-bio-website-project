@@ -1,1 +1,1 @@
-This project exists to show coding skills around HTML, CSS, JavaScript. While adhering to best practices with both coding and accessibility. The goal is to show progress over time and continous learning.
+This project exists to show coding skills around HTML, CSS, JavaScript. While adhering to best practices with both coding and accessibility. The goal is to show progress over time and continuous learning.
