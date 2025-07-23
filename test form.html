@@ -10,33 +10,54 @@
 <form action="/update_page.php"></form>
 <h1>Test Form</h1><br>
 <p>Please enter in the information in the form. Note: when pressing the submit button, your data is safe from hackers. Unlike companies that shall not be named, we keep your data private to you (we actually mean that). This is why we have not setup a server to collect your information.</p><br>
-    <h2>Instructions</h2><br>
+    <h2>Form instructions</h2><br>
     <p>All fields marked with an askerisk are required.</p><br>
     <ul>
     <li>Maximum length of names is 20 characters</li>
     <li>Minimum length of email is 20 characters</li>
     <li>Minimum length of phone number is 10 characters</li>
     </ul>
-    <fieldset>
-    <label for="fname">* First Name: <input id="fname" type="text" name="fname" required value="John" minlength="3" maxlength="20" class="contactinfo" /></label>
-    <label for="lan">* Last Name: <input id="lname" type="text" name="lname" required value="Doe" minlength="3" maxlength="20" class="contactinfo" /></label>
-    <label for="email">* Email address: <input id="email" type="email" name="email" required value="someone@example.com" maxlength="30" class="contactinfo" /></label>
-        <label for="phone">* Phone number: <input id="phone" type="number" name="phone" required" minlength="10" maxlength="12" class="contactinfo" /></label>
-        <label for="dob">Date of Birth <input id="dob" type="numbers" name="dob" required value="mm/dd/yyyy" maxlength="10" class="contactinfo" /></label>
-        <label for="new-password">Create a New Password: <input id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8,}" required class="contactinfo" /></label>
-    </fieldset>
-    <fieldset>
+    <label for="fname">* First Name:</label>
+        <input id="fname" type="text" name="fname" required value="John" minlength="3" maxlength="20" class="contactinfo" />
+    <label for="lan">* Last Name:</label>
+        <input id="lname" type="text" name="lname" required value="Doe" minlength="3" maxlength="20" class="contactinfo" />
+    <label for="email">* Email address:</label>
+        <input id="email" type="email" name="email" required value="someone@example.com" maxlength="30" class="contactinfo" />
+        <label for="phone">* Phone number:</label>
+            <input id="phone" type="number" name="phone" required" minlength="10" maxlength="12" class="contactinfo" />
+        <label for="dob">Date of Birth</label>
+            <input id="dob" type="numbers" name="dob" required value="mm/dd/yyyy" maxlength="10" class="contactinfo" />
+        <label for="new-password">Create a New Password:</label>
+             <input id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8,}" required class="contactinfo" />
         <h3> Gamer tag</h3><br>
         <p>What would your gamer tag be? Let me know in the gamer tag text box.</p><br>
-        <label for="gamer"> Gamer Tag <input id="gamer" type="text" name=gamer" value="TechSavvy" class="gamer" /></label>
+        <label for="gamer"> Gamer Tag</label> 
+            <input id="gamer" type="text" name=gamer" value="TechSavvy" class="gamer" />
         <h2>What type of character would you be?</h2><br>
         <p>Choose your favorite character from the predefined selections or enter your own.</p><br>
+        
+    <fieldset>
+    <legend>Select your Character</legend>
         <!-- add radio button selections-->
     </fieldset>
-    <fieldset>
-        <h3>Magical Powers</h3>
+        <h3>Magical powers from family</h3>
         <p> You've been given magical powers by your wizard father. Unfortunately before he kicked the bucket, he was only able to transfer three powers to you. Please choose the three powers you will start out with.</p>
+        
+    <fieldset>
+    <legend> Select your power</legend>
         <!-- radio button selections go here. -->
+         <input="radio" Fire>
+         <input="radio" Wind)
+         <input="radio" Earth>
+         <input="radio" Ice>
+    </fieldset>
+    <h3> Sample address information</h3>
+    <p>Please provide your address infomation below.</p>
+    <fieldset>
+        <legend> Shipping address</legend>
+        <p><label> Full name <input name="name" required</label></p>
+        <p><label> Address line 1 <input id="address-1" required</label></p>
+        <p>etc. etc.</p>
     </fieldset>
     <input type="submit" value="Submit">
             </form>
